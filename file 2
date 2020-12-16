@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: A simple EC2 instance by Charlotte
+Resources:
+  MyEC2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      AvaibilityZone: us-west-1a
+      ImageId: ami-0e4035ae3f70c400f
+      InstanceType: t2.micro
